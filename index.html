@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Mrittika by Kanak — handmade clay gifts</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Nunito:wght@400;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="blob-layer" aria-hidden="true">
+  <div class="blob" id="blobA"></div>
+  <div class="blob" id="blobB"></div>
+  <div class="blob" id="blobC"></div>
+</div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <div class="logo">Mrittika by Kanak</div>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <!-- category links are added here automatically by script.js -->
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="wrap">
+      <p class="hero-eyebrow">handmade with clay, one piece at a time</p>
+      <h1>Little clay things,<br />made for you</h1>
+      <p class="hero-sub">Fridge magnets, desk buddies, bookmarks, clay toys and bag charms — each one shaped and painted by hand.</p>
+      <a href="#catalogue" class="btn btn-primary">Browse the catalogue</a>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="wrap about-inner">
+      <div class="about-text">
+        <p class="about-eyebrow">the hands behind Mrittika by Kanak</p>
+        <h2>Hi, I'm Kanak</h2>
+        <p>I'm a working professional based in Mumbai, married, and someone who has always found her way back to art — no matter how full the week gets. Clay is the medium I've settled into, mostly because it doesn't ask me to choose between being precise and being playful. It lets me be both.</p>
+        <p>Mrittika is how I get to bring that side of myself out into the open, and more than that, it's how I get to bring it out in other people too. Every custom piece starts with someone telling me about a person they love — their humour, their quirks, the things that make them <em>them</em> — and my job is to shape that into something small enough to hold. That's the part that keeps me coming back to the worktable every evening: it's rarely just about the clay, it's about the person it ends up with.</p>
+        <div class="about-facts">
+          <span class="fact">Mumbai-based</span>
+          <span class="fact">Working professional, full-time artist at heart</span>
+          <span class="fact">Every piece made to order</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <div class="chip-row" id="chipRow">
+      <!-- category chips are added here automatically by script.js -->
+    </div>
+  </div>
+
+  <div id="catalogue">
+    <!-- category shelves and product cards are built here automatically by script.js, from products.js -->
+  </div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>Mrittika by Kanak — every piece handmade to order.</p>
+    <p class="footer-note">Orders are placed through our storefronts on Meesho, Instagram and WhatsApp.</p>
+  </div>
+</footer>
+
+<div class="modal-backdrop" id="modalBackdrop">
+  <div class="modal">
+    <div class="modal-head">
+      <p id="modalTitle">Order this piece</p>
+      <button id="modalClose" aria-label="Close">✕</button>
+    </div>
+    <p class="modal-sub">Choose where you'd like to place this order</p>
+    <a class="modal-option modal-meesho" href="https://www.meesho.com" target="_blank" rel="noopener">Order via Meesho</a>
+    <a class="modal-option modal-insta" href="https://www.instagram.com" target="_blank" rel="noopener">Order via Instagram</a>
+    <a class="modal-option modal-wa" href="https://www.whatsapp.com" target="_blank" rel="noopener">Message on WhatsApp</a>
+  </div>
+</div>
+
+<script src="products.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
