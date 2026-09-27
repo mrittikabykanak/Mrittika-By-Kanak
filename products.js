@@ -12,9 +12,9 @@
 //   this is set — otherwise the photo scroller simply takes the full width.
 const PRODUCTS = [
   { name: "Kitty Fridge Magnets (Pack of 3)", category: "Fridge Magnet", price: 400,
-    images: ["./images/kitty-fridge-magnets-pack-of-3-1.jpg"], video: null },
+    images: ["images/kitty-fridge-magnets-pack-of-3-1.jpg"], video: null },
   { name: "Floral Fridge Magnet", category: "Fridge Magnet", price: 300,
-    images: ["./images/floral-fridge-magnet-1.jpg"], video: null },
+    images: ["images/floral-fridge-magnet-1.jpg"], video: null },
   { name: "Floral Bookmarks (Pack of 3)", category: "Bookmarks", price: 500,
     images: ["images/floral-bookmarks-pack-of-3-1.jpg"], video: null },
   { name: "UK Telephone Booth", category: "Office Desk buddy", price: 1000,
